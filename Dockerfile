@@ -10,4 +10,4 @@ RUN cp -rvf grandcoffee/* .
 RUN rm -rf grandcoffee grandcoffee.zip
 ENTRYPOINT ["/usr/sbin/apache2ctl"]
 CMD ["-D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
